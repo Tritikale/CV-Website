@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@500&display=swap');
+html,
+body {
+    font-family: 'Work Sans', sans-serif;
+    background: url(../images/background.jpg) center center / cover;
+}
+
+h4 {
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+h5 {
+    margin: 10px;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    width: 800px;
+    min-height: 200px;
+    border: 10px solid #fff;
+    border-bottom: 0px;
+    margin: 0 auto;
+    margin-top: 10px;
+    background: #fff;
+}
+
+.title-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 150px;
+    margin: 0;
+}
+
+.name-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    font-size: 30px;
+    background: url(../images/title-background.jpg) no-repeat center center / cover;
+    color: #fff;
+    margin-right: 10px;
+}
+
+.userpic {
+    display: flex;
+    width: 20%;
+    height: 100%;
+    background: url(../images/profile-picture.jpg) no-repeat center center / cover;
+}
+
+nav ul {
+    display: flex;
+    background: #a8a8a8;
+    margin: 10px 0;
+}
+
+nav li {
+    width: 25%;
+}
+
+nav li a {
+    display: flex;
+    padding: 20px;
+    text-decoration: none;
+    color: #404040;
+    font-weight: bold;
+    transition: background .3s ease;
+}
+
+nav li:hover {
+    background: #8d8d8d;
+}
+
+main {
+    width: 800px;
+    min-height: 600px;
+    border: 10px solid #fff;
+    margin: 0 auto;
+    background: #fff;
+}
+
+main div {
+    display: flex;
+    flex-direction: column;
+    border: 10px solid #fff;
+    border-bottom: 10px solid #a8a8a8;
+    background: #fff;
+}
+
+#home {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 150px;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    min-height: 10px;
+    border: 10px solid #fff;
+    background: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 10px;
+}
